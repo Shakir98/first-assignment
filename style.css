@@ -1,0 +1,203 @@
+
+/* about part css start */
+
+#about-section {
+    height: 500px;
+    width: auto;
+    display: block;
+}
+.about-me {
+    width: 40%;
+    margin: 0% 10%;
+    float: left;
+}
+.about-me h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.highlight-part {
+    color: #2AB5E7;
+    text-transform: uppercase;
+}
+.about-me p,
+.details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    padding-right: 30%;
+    color: #524545;
+}
+
+/* about part css finish */
+
+/* details part css start*/
+
+.details h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: #363958;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    cursor: pointer;
+    background: #FA6F61;
+    padding: 13px 35px;
+    border-radius: 5%;
+    border: none;
+    color: #fff;
+    position: relative;
+}
+.about-img img,
+.details-img img {
+    width: 35%;
+    float: left;
+}
+#detail-section {
+    height: 500px;
+    width: auto;
+}
+.details {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+}
+.details-img img{
+    width: 35%;
+    float: left;
+    margin-left: 8%;
+}
+.projects-detail {
+    margin-left: 10%;
+}
+.Cv-btn img{
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 25%;
+    right: 80%;
+}
+/* details part css finish*/
+
+/*service part css start*/
+
+#service-section {
+    height: 600px;
+    width: auto;
+}
+.my-sevice h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: #363958;
+    padding-top: 50px;
+    text-align: center;
+}
+.design-part, .development-part{
+    width: 40%;
+    float: left;
+    margin-right: 15%;
+    text-align: center;
+    margin: 0% 5%;
+}
+.design-part h2, .development-part h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+.design-part p, .development-part p{
+    color: #6C6C6C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-right: 40px;
+}
+.design-part img,
+.development-part img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+/*service part css end*/
+
+/*project part css start*/
+
+#project-section {
+    background: #F8F9FC;
+    height: 600px;
+    width: auto;
+    margin-bottom: 0px;
+}
+.project h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: #363958;
+    padding-top: 50px;
+    text-align: center;
+}
+.marking-part {
+    color: #F46060;
+}
+.same-project {
+    float: left;
+    width: 25%;
+    margin-right: 50px;
+    box-shadow: 1px 3px 7px 4px #F8F9FC;
+    border-radius: 5%;
+    background: #fff;
+    border: 10px solid #fff;
+}
+.same-project img {
+    width: 300px;
+    height: 210px;
+    border-radius: 5%
+}
+.same-project h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+    text-align: center;
+}
+.same-project p {
+    color: #6C6C6C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*project part css finish*/
+
+/*footer part css start*/
+
+.footer-bg {
+    background-image: url('images/img4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 100px 0px;
+    position: relative;
+    margin: 50px 0px;
+}
+.footer-text h1 {
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    color: #fff;
+    position: absolute;
+    top: 14%;
+    left: 23%;
+}
+.footer-btn {
+    float: right;
+    position: absolute;
+    top: 42%;
+    right: 25%;
+}
+/*footer part css finish*/
